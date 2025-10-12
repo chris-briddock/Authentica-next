@@ -1,0 +1,6 @@
+@Authentica.TestClient_HostAddress = http://localhost:5210
+
+GET {{Authentica.TestClient_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

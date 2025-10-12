@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Project Path="Authentica.WorkerService.Email/Authentica.WorkerService.Email.csproj" />
+  <Project Path="src/Authentica.Service.Identity/Authentica.Service.Identity.csproj" />
+  <Project Path="src/Authentica.TestClient/Authentica.TestClient.csproj" />
+</Solution>
