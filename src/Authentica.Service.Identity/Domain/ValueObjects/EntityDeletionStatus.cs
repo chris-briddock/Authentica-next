@@ -26,7 +26,9 @@ public sealed class EntityDeletionStatus<TKey> where TKey : IEquatable<TKey>
     /// <param name="isDeleted">Indicates whether the entity is deleted.</param>
     /// <param name="deletedOnUtc">The date and time when the entity was deleted in UTC. Null if not deleted.</param>
     /// <param name="deletedBy">The identifier of the user who deleted the entity. Null if not deleted.</param>
-    public EntityDeletionStatus(bool isDeleted, DateTime? deletedOnUtc, TKey? deletedBy)
+    public EntityDeletionStatus(bool isDeleted, 
+                                DateTime? deletedOnUtc, 
+                                TKey? deletedBy)
     {
         IsDeleted = isDeleted;
         DeletedOnUtc = deletedOnUtc;
