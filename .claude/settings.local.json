@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "SlashCommand(/openspec:proposal add-oauth2-identity-provider)",
+      "Bash(ls -la openspec/changes/add-oauth2-identity-provider/{proposal.md,tasks.md})"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
